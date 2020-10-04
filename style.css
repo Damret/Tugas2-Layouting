@@ -1,0 +1,85 @@
+body {
+    background-color: tomato;
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+
+header h3 {
+    padding-top: 5%;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 0;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.content {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.sidebar aside  {
+    margin-right: 5%;
+}
+
+.sidebar{
+    flex: 1.5;
+}
+
+img{
+    width: 100%;
+    display: flex;  
+}
+
+main {   
+    flex: 1;
+}
+
+main .kotak1 {
+    background-color:white;
+    display: flex;
+}
+
+.isikotak {
+    padding-left: 20px;     
+}
+
+.isikotak p {
+    margin-top: 0;
+}
+
+.isikotak h3 {
+    margin-bottom: 0;
+}
+
+main .kotak2 {
+    background-color:white;
+    display: flex;
+    margin-top: 10px;
+}
+
+main .kotak3 {
+    background-color:white;
+    display: flex;
+    margin-top: 10px;
+}
+
+.link {
+    background-color: black;
+    color: white;
+    width: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
